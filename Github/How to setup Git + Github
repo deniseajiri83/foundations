@@ -1,0 +1,47 @@
+#Command + / (comments in and out) a line
+# HOW TO SET UP GIT AND GITHUB:
+#Github is where all the coders store all their codes
+#you need to install and set up git
+#git is a version control system
+#git is a dropbox or GoogleDocs for codes.
+#Github is a cloud for codes.
+#it's best just because you can share codes with others
+#you set up a profile and put it there
+#you make repositories (collection of your codes)
+#they can be private/non-private
+#for mac, run this code in your termina: brew install git
+# It installs it permenantly
+# there is a desktop version for git. DON'T USE IT. It'll crash all the time.
+#Run this
+
+#git config --global user.name "deniseajiri.83"
+#git config --global user.email "denise.ajiri83@gmail.com"
+
+#no output = you're good
+
+# go here: https://help.github.com/articles/set-up-git/
+
+#Connecting over HTTPS (recommended)
+
+#If you clone with HTTPS, you can cache your GitHub password in Git using a credential helper.
+
+#click on "chache your GiyHub..." (https://help.github.com/articles/caching-your-github-password-in-git/) 
+
+# when you follow the instructions, in the end if you don't get an output YOU'RE GOOD.
+
+# go to github. click on + on the top righ and "new repository"
+
+#initialize this repository with a README -- check this
+
+# if you want to connect it to your machine, you clone it 
+#click on "clone or download", copy the https link
+#in your teminal write: git clone https:..,,,,,
+
+# go to you folder on your computer open the read me file. make changes to it. 
+#to make it saved permenantly (and making it your check point you need to:
+# go into your folder in Terminal and then write this commans: git commit -a -m "Editing our README"
+# then in terminal write: ls -la
+
+# now we need to connect the computer and cloud. run in terminal: git push
+#it'll ask for your username( deniseajiri83 )
+#and password (shlama shlama 1)
